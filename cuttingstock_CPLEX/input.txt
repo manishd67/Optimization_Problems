@@ -1,0 +1,9 @@
+Length of stock:		218
+No. of orders:		6
+Order Length	Demand:
+125.0		250
+81.00		415
+64.00		263
+51.75		736
+41.25		393
+21.50		140

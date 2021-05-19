@@ -1,0 +1,50 @@
+Initial Patterns added to the master problem
+0) [1, 0, 0, 0, 0, 0]
+1) [0, 2, 0, 0, 0, 0]
+2) [0, 0, 3, 0, 0, 0]
+3) [0, 0, 0, 4, 0, 0]
+4) [0, 0, 0, 0, 5, 0]
+5) [0, 0, 0, 0, 0, 10]
+
+Iteration 1:
+Shadow Prices/Dual Values: [1, 0.5, 0.333333, 0.25, 0.2, 0.1]
+Objective Value of the master-problem: 821.767
+Objective Value of the sub-problem: 0.5
+New Pattern Generated: [1, 1, 0, 0, 0, 0]
+
+Iteration 2:
+Shadow Prices/Dual Values: [0.5, 0.5, 0.333333, 0.25, 0.2, 0.1]
+Objective Value of the master-problem: 696.767
+Objective Value of the sub-problem: 0.25
+New Pattern Generated: [0, 2, 0, 1, 0, 0]
+
+Iteration 3:
+Shadow Prices/Dual Values: [0.625, 0.375, 0.333333, 0.25, 0.2, 0.1]
+Objective Value of the master-problem: 676.142
+Objective Value of the sub-problem: 0.1
+New Pattern Generated: [0, 0, 3, 0, 0, 1]
+
+Iteration 4:
+Shadow Prices/Dual Values: [0.625, 0.375, 0.3, 0.25, 0.2, 0.1]
+Objective Value of the master-problem: 667.375
+Objective Value of the sub-problem: 0.075
+New Pattern Generated: [1, 0, 0, 1, 1, 0]
+
+Iteration 5:
+Shadow Prices/Dual Values: [0.55, 0.375, 0.3, 0.25, 0.2, 0.1]
+Objective Value of the master-problem: 648.625
+Objective Value of the sub-problem: 0.05
+New Pattern Generated: [0, 0, 0, 1, 4, 0]
+
+Iteration 6:
+Shadow Prices/Dual Values: [0.5625, 0.375, 0.3, 0.25, 0.1875, 0.1]
+Objective Value of the master-problem: 646.837
+Objective Value of the sub-problem: 0.0375
+New Pattern Generated: [0, 0, 0, 3, 1, 1]
+
+Iteration 7:
+Shadow Prices/Dual Values: [0.5625, 0.375, 0.3125, 0.25, 0.1875, 0.0625]
+Objective Value of the master-problem: 644.875
+Objective Value of the sub-problem: 0
+
+Optimality attained for the master-problem
