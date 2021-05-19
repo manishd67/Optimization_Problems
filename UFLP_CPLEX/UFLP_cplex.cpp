@@ -16,7 +16,7 @@ int main() {
 	// Reading input
 	ifstream input;
 	string filename = "cap71.txt";
-	string folder_path = "C:\\Users\\Manish Dighore\\Documents\\inputdatasets\\";
+	string folder_path = "Add the folder path for the input file here";
 	input.open( folder_path + filename);
 	int n, m;  // n = no. of potential facility locations, m = no. of clients
 	input >> n >> m;
@@ -120,7 +120,7 @@ int main() {
 
 	// Printing results to txt file
 	ofstream output;
-	output.open("C:\\Users\\Manish Dighore\\Documents\\inputdatasets\\output.txt", std::ios::app);
+	output.open("Add the file path for the output.txt file here", std::ios::app);
 	output << filename << endl;
 	output << "Optimal_solution - " << cplex.getObjValue() << endl;
 	output << "j th client connected to ith facility. i = 1,2,...n" << endl;
